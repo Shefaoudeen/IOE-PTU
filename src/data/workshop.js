@@ -1,3 +1,5 @@
+import { W1, W2 } from "../assets/pastEvent";
+
 const workshop = [
   {
     Title: "Hands-on session on “Embedded IoE”",
@@ -8,6 +10,7 @@ const workshop = [
     ProfessorLink:
       "https://mech.iitm.ac.in/profile.php?fname=Manivannan,%20P.%20V.",
     key: 1,
+    image: W1,
   },
   {
     Title:
@@ -20,6 +23,7 @@ const workshop = [
     ProfessorLink:
       "https://mech.iitm.ac.in/profile.php?fname=Manivannan,%20P.%20V.",
     key: 2,
+    image: W2,
   },
 ];
 

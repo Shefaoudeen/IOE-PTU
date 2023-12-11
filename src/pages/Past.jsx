@@ -42,7 +42,8 @@ const Past = () => {
               date={element.date}
               dateClassName="date"
               iconStyle={iconStyling}
-              className="drop-shadow-xl w-full"
+              className="drop-shadow-xl w-full rounded-3xl"
+              contentStyle={{ borderRadius: "20px" }}
             >
               <h1 className="vertical-timeline-element-title font-bold text-sm">
                 {element.Title}
@@ -89,10 +90,15 @@ const Past = () => {
               dateClassName="date"
               iconStyle={iconStyling}
               className="drop-shadow-xl w-full"
+              contentStyle={{ borderRadius: "20px" }}
             >
               <h1 className="vertical-timeline-element-title font-bold text-sm">
                 {element.Title}
               </h1>
+              <img
+                src={element.image}
+                className="w-full h-[200px] object-cover my-1 rounded-xl"
+              />
               <h1 className="vertical-timeline-element-subtitle text-xs mt-2">
                 <a target="_blank" href={element.ProfessorLink}>
                   <span className="font-bold text-sm">{element.Speaker}</span>
