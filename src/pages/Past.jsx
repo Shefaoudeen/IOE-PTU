@@ -42,7 +42,7 @@ const Past = () => {
               date={element.date}
               dateClassName="date"
               iconStyle={iconStyling}
-              className="drop-shadow-xl w-fit"
+              className="drop-shadow-xl w-full"
             >
               <h1 className="vertical-timeline-element-title font-bold text-sm">
                 {element.Title}
