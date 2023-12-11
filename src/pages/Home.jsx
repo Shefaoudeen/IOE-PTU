@@ -1,9 +1,8 @@
 import React from "react";
-import { Wallpaper } from "../assets";
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center flex-col " id="#home">
+    <div className="flex justify-center items-center flex-col " id="home">
       <div className="text-center w-1/2 h-screen flex flex-col items-center justify-center">
         <h1 className=" text-xl font-extrabold">
           What is the Internet of Everything ?
