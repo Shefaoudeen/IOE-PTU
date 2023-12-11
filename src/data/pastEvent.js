@@ -1,4 +1,4 @@
-import { Picture1 } from "../assets";
+import { P1, P2, P3, P4, P5, P6, P7, P8 } from "../assets/pastEvent";
 
 const pastSession = [
   {
@@ -10,7 +10,7 @@ const pastSession = [
     date: "01 JAN 2000",
     key: 1,
     ProfessorLink: "https://annauniv.irins.org/profile/60587",
-    image: Picture1,
+    image: P1,
   },
   {
     Title:
@@ -22,6 +22,7 @@ const pastSession = [
       "delivering a talk on  IoE  - Converging Technologies & Security Issues",
     date: "01 JAN 2020",
     key: 2,
+    image: P2,
   },
 
   {
@@ -33,6 +34,7 @@ const pastSession = [
     date: "01 JAN 2023",
     ProfessorLink: "https://www.ptuniv.edu.in/ece/faculty?id=61",
     key: 3,
+    image: P3,
   },
   {
     Title: "Informative session on “Energy Harvesters for IoE”",
@@ -43,6 +45,7 @@ const pastSession = [
     date: "01 JAN 2023",
     ProfessorLink: "https://www.ptuniv.edu.in/ece/faculty?id=63",
     key: 4,
+    image: P4,
   },
   {
     Title: "Thought provoking session on “Discovering self”",
@@ -53,6 +56,7 @@ const pastSession = [
     date: "01 JAN 2023",
     ProfessorLink: "https://www.ptuniv.edu.in/ece/faculty?id=52",
     key: 5,
+    image: P5,
   },
   {
     Title:
@@ -65,6 +69,7 @@ const pastSession = [
     date: "01 JAN 2023",
     ProfessorLink: "https://ed.iitm.ac.in/~shankarram",
     key: 6,
+    image: P6,
   },
   {
     Title:
@@ -76,7 +81,8 @@ const pastSession = [
       "delivering a talk on  Cloud Computing Issues for IoE Applications.",
     date: "01 JAN 2023",
     ProfessorLink: "https://www.ptuniv.edu.in/cse/faculty?id=2",
-    key: 6,
+    key: 7,
+    image: P7,
   },
   {
     Title: "Insightful session on “Robotics and Automation in IoE”",
@@ -87,7 +93,8 @@ const pastSession = [
     date: "01 JAN 2023",
     ProfessorLink:
       "https://mech.iitm.ac.in/profile.php?fname=Manivannan,%20P.%20V.",
-    key: 7,
+    key: 8,
+    image: P8,
   },
 ];
 
