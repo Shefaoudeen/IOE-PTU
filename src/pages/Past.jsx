@@ -86,7 +86,7 @@ const Past = () => {
           return (
             <VerticalTimelineElement
               key={element.key}
-              date={element.date}
+              date={element.image}
               dateClassName="date"
               iconStyle={iconStyling}
               className="drop-shadow-xl w-full"
