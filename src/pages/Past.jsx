@@ -3,9 +3,12 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { Slide, Fade, Zoom } from "react-slideshow-image";
 import "react-vertical-timeline-component/style.min.css";
+import "react-slideshow-image/dist/styles.css";
 import pastSession from "../data/pastEvent";
 import workshop from "../data/workshop";
+import { slides, workshopSlides } from "../assets/pastEvent";
 
 const iconStyling = {
   background: "#808080",
@@ -34,6 +37,25 @@ const Past = () => {
           Everything.
         </h1>
       </div>
+      <div className="slide-container relative">
+        <Fade duration={2000}>
+          {slides.map((images, index) => {
+            return (
+              <div key={index} className="flex justify-center">
+                <div className="flex items-center justify-center h-[400px] w-1/2">
+                  <img
+                    src={images.image}
+                    className="rounded-2xl object-fill shadow-2xl"
+                  />
+                  <span className="absolute bottom-5 text-white text-[20px]">
+                    {images.caption}
+                  </span>
+                </div>
+              </div>
+            );
+          })}
+        </Fade>
+      </div>
       <VerticalTimeline className="w-1/2 z-0" layout="2-columns">
         {pastSession.map((element) => {
           return (
@@ -48,10 +70,6 @@ const Past = () => {
               <h1 className="vertical-timeline-element-title font-bold text-sm">
                 {element.Title}
               </h1>
-              <img
-                src={element.image}
-                className="w-full h-[200px] object-cover my-1 rounded-xl"
-              />
               <h1 className="vertical-timeline-element-subtitle text-xs mt-2">
                 <a target="_blank" href={element.ProfessorLink}>
                   <span className="font-bold text-sm">{element.Speaker}</span>
@@ -81,6 +99,22 @@ const Past = () => {
           Everything.
         </h1>
       </div>
+      <div className="slide-container relative">
+        <Fade duration={2000}>
+          {workshopSlides.map((images, index) => {
+            return (
+              <div key={index} className="flex justify-center">
+                <div className="flex items-center justify-center h-[400px] w-1/2">
+                  <img
+                    src={images.photo}
+                    className="rounded-2xl object-fill shadow-2xl"
+                  />
+                </div>
+              </div>
+            );
+          })}
+        </Fade>
+      </div>
       <VerticalTimeline className="w-1/2" layout="2-columns">
         {workshop.map((element) => {
           return (
@@ -95,10 +129,6 @@ const Past = () => {
               <h1 className="vertical-timeline-element-title font-bold text-sm">
                 {element.Title}
               </h1>
-              <img
-                src={element.image}
-                className="w-full h-[200px] object-cover my-1 rounded-xl"
-              />
               <h1 className="vertical-timeline-element-subtitle text-xs mt-2">
                 <a target="_blank" href={element.ProfessorLink}>
                   <span className="font-bold text-sm">{element.Speaker}</span>

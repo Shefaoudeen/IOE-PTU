@@ -9,4 +9,40 @@ import P8 from "./Picture8.jpg";
 import W1 from "./workshop1.jpg";
 import W2 from "./workshop2.jpg";
 
-export { P1, P2, P3, P4, P5, P6, P7, P8, W1, W2 };
+const slides = [
+  {
+    image: P1,
+  },
+  {
+    image: P2,
+  },
+  {
+    image: P3,
+  },
+  {
+    image: P4,
+  },
+  {
+    image: P5,
+  },
+  {
+    image: P6,
+  },
+  {
+    image: P7,
+  },
+  {
+    image: P8,
+  },
+];
+
+const workshopSlides = [
+  {
+    photo: W1,
+  },
+  {
+    photo: W2,
+  },
+];
+
+export { P1, P2, P3, P4, P5, P6, P7, P8, W1, W2, slides, workshopSlides };
