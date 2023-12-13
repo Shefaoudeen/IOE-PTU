@@ -43,11 +43,11 @@ const Bearers = () => {
                     <h1 className="text-lg font-semibold">{element.role}</h1>
                     <h1 className="text-lg font-medium">{element.year}</h1>
                     <div className="flex justify-evenly my-2 text-2xl">
-                      <a href={element.linkedin}>
+                      <a href={element.linkedin} target="_blank">
                         <i className="fa fa-linkedin"></i>
                       </a>
                       <a href={element.email}>
-                        <i className="fa fa-envelope"></i>
+                        <i className="fa fa-envelope" target="_blank"></i>
                       </a>
                       <a href={element.phoneNo}>
                         <i className="fa fa-phone"></i>

@@ -3,7 +3,10 @@ import React from "react";
 const Home = () => {
   return (
     <div className="flex justify-center items-center flex-col " id="home">
-      <div className="text-center w-1/2 h-screen flex flex-col items-center justify-center">
+      <div className="text-center w-1/2 h-screen flex flex-col items-center justify-center relative">
+        <h1 className="absolute text-[90px] font-extrabold text-gray-400 -rotate-[30deg] opacity-50">
+          WEBSITE UNDER CONSTRUCTION
+        </h1>
         <h1 className=" text-xl font-extrabold">
           What is the Internet of Everything ?
         </h1>

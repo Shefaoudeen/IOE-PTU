@@ -67,16 +67,18 @@ const Past = () => {
               className="drop-shadow-xl w-full rounded-3xl"
               contentStyle={{ borderRadius: "20px" }}
             >
-              <h1 className="vertical-timeline-element-title font-bold text-sm">
+              <h1 className="vertical-timeline-element-title font-bold text-lg">
                 {element.Title}
               </h1>
-              <h1 className="vertical-timeline-element-subtitle text-xs mt-2">
+              <h1 className="vertical-timeline-element-subtitle text-md mt-2">
                 <a target="_blank" href={element.ProfessorLink}>
-                  <span className="font-bold text-sm">{element.Speaker}</span>
+                  <span className="font-bold text-lg hover:text-yellow-400">
+                    {element.Speaker}
+                  </span>
                 </a>{" "}
                 {element.Position}
               </h1>
-              <h1 className="text-xs mt-2">{element.Action}</h1>
+              <h1 className="text-md mt-2">{element.Action}</h1>
             </VerticalTimelineElement>
           );
         })}
@@ -126,16 +128,18 @@ const Past = () => {
               className="drop-shadow-xl w-full"
               contentStyle={{ borderRadius: "20px" }}
             >
-              <h1 className="vertical-timeline-element-title font-bold text-sm">
+              <h1 className="vertical-timeline-element-title font-bold text-lg">
                 {element.Title}
               </h1>
-              <h1 className="vertical-timeline-element-subtitle text-xs mt-2">
+              <h1 className="vertical-timeline-element-subtitle text-md mt-2">
                 <a target="_blank" href={element.ProfessorLink}>
-                  <span className="font-bold text-sm">{element.Speaker}</span>
+                  <span className="font-bold text-lg hover:text-yellow-400">
+                    {element.Speaker}
+                  </span>
                 </a>{" "}
                 {element.Position}
               </h1>
-              <h1 className="text-xs mt-2">{element.Action}</h1>
+              <h1 className="text-md mt-2">{element.Action}</h1>
             </VerticalTimelineElement>
           );
         })}

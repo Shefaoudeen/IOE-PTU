@@ -8,12 +8,30 @@ const Footer = () => {
        h-[20vh] items-center"
       >
         <div className="text-white w-[60%] h-[50%] flex justify-center items-center flex-col">
-          <h1 className="text-md font-bold">DEVELOPED BY: </h1>
-          <h1 className="text-xl font-extrabold">SHEFAOUDEEN Z</h1>
-          <div className="w-[50%] flex justify-around text-2xl mt-4">
-            <i className="fa fa-instagram"></i>
-            <i className="fa fa-linkedin"></i>
-            <i className="fa fa-github"></i>
+          <h1 className="text-lg font-bold">DEVELOPED BY: </h1>
+          <h1 className="text-2xl font-extrabold">SHEFAOUDEEN Z</h1>
+          <div className="w-[50%] flex justify-around text-3xl mt-4">
+            <a
+              href="https://www.instagram.com/shefaoudeen/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shefaoudeen-z-b5a6b8274/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/Shefaoudeen"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-github"></i>
+            </a>
           </div>
         </div>
       </div>
