@@ -19,7 +19,7 @@ const Footer = () => {
               <i className="fa fa-instagram"></i>
             </a>
             <a
-              href="https://www.linkedin.com/in/shefaoudeen-z-b5a6b8274/"
+              href="https://www.linkedin.com/feed/"
               target="_blank"
               rel="noopener noreferrer"
             >
