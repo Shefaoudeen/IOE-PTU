@@ -4,10 +4,14 @@ import { DrGunasundari } from "../assets";
 const Convenor = () => {
   return (
     <div className="h-screen flex flex-col items-center" id="convenor">
-      <h1 className="text-3xl font-bold mt-20">CONVENOR</h1>
+      <h1 className="text-3xl font-bold mt-20 google-font1 ">CONVENOR</h1>
       <div className="flex h-full justify-around w-[90%] items-center">
         <div>
-          <img src={DrGunasundari} className="rounded-2xl shadow-2xl" />
+          <img
+            src={DrGunasundari}
+            className="rounded-2xl shadow-2xl"
+            data-aos="flip-left"
+          />
         </div>
         <div>
           <h1 className="font-extrabold text-3xl">Dr. R. Gunasundari</h1>

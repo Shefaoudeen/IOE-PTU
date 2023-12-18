@@ -10,6 +10,13 @@ import Globe2 from "./homeGlobe2.jpg";
 import Image1 from "./image2.png";
 import Wallpaper2 from "./wallpaper2.jpg";
 import Image3 from "./image3.png";
+import Wallpaper3 from "./wallpaper3.jpg";
+import VR from "./VR.png";
+import InAug from "./inaug.jpg";
+import Group from "./group.jpg";
+import Blue from "./bluebg.jpg";
+import mic from "./mic.png";
+import Logo from "./logowp.png";
 
 export {
   Wallpaper,
@@ -23,5 +30,12 @@ export {
   Globe2,
   Image1,
   Wallpaper2,
+  Wallpaper3,
   Image3,
+  VR,
+  InAug,
+  Group,
+  Blue,
+  mic,
+  Logo,
 };

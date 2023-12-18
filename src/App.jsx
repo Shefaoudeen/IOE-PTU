@@ -3,11 +3,17 @@ import Home from "./pages/Home";
 import Past from "./pages/Past";
 import Upcoming from "./pages/Upcoming";
 import Convenor from "./pages/Convenor";
-import Test from "./pages/Test";
 import Bearers from "./pages/Bearers";
 import Contact from "./pages/Contact";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function App() {
+  Aos.init({
+    duration: 1800,
+    offset: 0,
+  });
+
   return (
     <div className="relative">
       <Navbar />
@@ -15,7 +21,6 @@ export default function App() {
       <Past />
       <Upcoming />
       <Convenor />
-      <Test />
       <Bearers />
       <Contact />
     </div>

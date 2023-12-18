@@ -7,7 +7,9 @@ const Upcoming = () => {
       className="flex flex-col items-center  bg-blue-100 -z-10 h-screen"
       id="upcoming"
     >
-      <h1 className="py-[60px] font-bold text-3xl">UPCOMING EVENTS</h1>
+      <h1 className="py-[60px] font-bold text-3xl google-font1 ">
+        UPCOMING EVENTS
+      </h1>
       <div className="flex px-4 justify-center gap-[100px]">
         {upcoming.map((element) => {
           return (
