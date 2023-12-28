@@ -27,10 +27,15 @@ const Bearers = () => {
       className="flex flex-col w-full  items-center z-0 h-screen bg-slate-200"
       id="bearers"
     >
-      <h1 className="mt-20 font-extrabold text-4xl">OFFICE BEARERS</h1>
+      <h1 className="mt-20 font-extrabold text-4xl font-title">
+        OFFICE BEARERS
+      </h1>
 
       <div className="w-[100%] flex justify-center items-center h-full">
-        <Slider {...settings} className="w-[90%] bg-slate-50 rounded-2xl py-10">
+        <Slider
+          {...settings}
+          className="w-[90%] bg-slate-50 rounded-2xl py-10 drop-shadow-2xl"
+        >
           {final.map((element) => {
             return (
               <div className="text-center rounded-xl   w-full border-none flex flex-col justify-center items-center ">

@@ -1,7 +1,17 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import { Shefa } from "../assets";
-import { Globe, Globe2, Image1, Wallpaper2, Image3, VR } from "../assets";
+import {
+  Globe,
+  Globe2,
+  Image1,
+  Wallpaper2,
+  Image3,
+  VR,
+  IOT1,
+  IOT2,
+  IOT3,
+} from "../assets";
 
 const styling = {
   backgroundImage: `url(${Wallpaper2})`,
@@ -23,12 +33,11 @@ const styling1 = {
 const Home = () => {
   return (
     <div
-      className="flex justify-center items-center flex-col"
+      className="flex justify-center items-center flex-col max-sm:bg-contain"
       id="home"
-      style={styling1}
     >
-      <div className="text-center w-full h-screen flex items-center justify-center relative text-white">
-        <div className="w-3/5 px-9">
+      <div className="text-center w-full h-screen flex items-center justify-center relative text-black bg-slate-200">
+        <div className="w-3/5 px-9 ">
           <h1 className=" text-5xl font-extrabold text-gray-400">
             INTERNET OF EVERYTHINGS
           </h1>
@@ -54,67 +63,70 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="text-center w-full h-screen text-black flex ">
-        <div className="w-2/5 flex justify-center items-center ">
-          <img
-            src={Image3}
-            width={400}
-            data-aos="fade-right"
-            data-aos-delay="100"
-          />
-        </div>
-        <div className="w-3/5 flex flex-col justify-center items-center px-8">
-          <div className="border p-10 relative backdrop-blur-2xl rounded-3xl">
-            <div className="">
-              <h1 className=" text-5xl font-extrabold text-gray-400 google-font2 ">
-                IOE HUB
-              </h1>
-              <ul className="text-lg mt-10 font-bold  leading-8 list-disc text-white text-justify ">
-                <li>
-                  An IOE Hub serves as a collaborative platform for individuals
-                  interested in the Internet of Everything (IoE). Functioning as
-                  a focal point for networking and knowledge exchange, the IOE
-                  Hub brings together enthusiasts, students, faculty members,
-                  and professionals keen on exploring the vast landscape of IoE.
-                </li>
-                <li>
-                  Within the IOE Hub, members can connect with like-minded
-                  peers, engage in discussions about IoE technologies, and
-                  enhance their understanding of the interconnected realms of
-                  people, processes, data, and devices. Through a variety of
-                  activities and events, the IOE Hub facilitates the sharing of
-                  ideas, insights, and experiences related to IoE.
-                </li>
-                <li>
-                  Acting as a dynamic entity within the academic environment, an
-                  active IOE Hub contributes significantly to the growth and
-                  development of its members. It offers programs and initiatives
-                  focused on IoE-related fields, fostering an environment
-                  conducive to learning and skill development in networking,
-                  data integration, and emerging technologies.
-                </li>
-              </ul>
+      <div className="text-center w-full h-screen max-sm:h-full text-black flex flex-col  bg-slate-200">
+        <div className="flex justify-center items-center z-10  h-full">
+          <div className="flex px-4 gap-10 h-3/5 max-sm:flex-col max-sm:mx-4">
+            <div className="border-none rounded-3xl bg-white drop-shadow-2xl">
+              <div className="overflow-hidden rounded-t-3xl">
+                <img
+                  src={IOT1}
+                  className="w-full h-[250px] object-fill rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
+                />
+              </div>
+              <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
+                <div>
+                  <p>
+                    An IOE Hub serves as a collaborative platform for
+                    individuals interested in the Internet of Everything (IoE).
+                    Functioning as a focal point for networking and knowledge
+                    exchange, the IOE Hub brings together enthusiasts, students,
+                    faculty members, and professionals keen on exploring the
+                    vast landscape of IoE.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="border-none rounded-3xl bg-white drop-shadow-2xl">
+              <div className="overflow-hidden rounded-t-3xl">
+                <img
+                  src={IOT2}
+                  className="w-full h-[250px] object-cover rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
+                />
+              </div>
+              <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
+                <div>
+                  <p>
+                    Within the IOE Hub, members can connect with like-minded
+                    peers, engage in discussions about IoE technologies, and
+                    enhance their understanding of the interconnected realms of
+                    people, processes, data, and devices. Through a variety of
+                    activities and events, the IOE Hub facilitates the sharing
+                    of ideas, insights, and
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="border-none rounded-3xl bg-white drop-shadow-2xl">
+              <div className="overflow-hidden rounded-t-3xl">
+                <img
+                  src={IOT3}
+                  className="w-full h-[250px] object-fill rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
+                />
+              </div>
+              <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
+                <div>
+                  <p>
+                    Acting as a dynamic entity within the academic environment,
+                    an active IOE Hub contributes significantly to the growth
+                    and development of its members. It offers programs and
+                    initiatives focused on IoE-related fields, fostering an
+                    environment conducive to learning and skill development in
+                    networking, data integration, and emerging technologies.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="text-center w-full h-screen flex flex-col items-center justify-center relative">
-        <div className="z-40 w-3/4 h-full mt-20">
-          <h1 className=" text-5xl font-extrabold text-gray-400 z-40 google-font2 ">
-            ADVANTAGES
-          </h1>
-          <p className="text-xl mt-10 font-semibold text-white text-center leading-8 z-40">
-            Participation in an IOE Hub not only broadens students' perspectives
-            on the rapidly evolving IoE landscape but also provides a platform
-            to hone both soft and hard skills essential for future careers. Much
-            like an IEEE Student Branch in designated fields, an IOE Hub plays a
-            vital role in bridging the gap between academia and industry,
-            preparing its members for the challenges and opportunities presented
-            by the expanding Internet of Everything.
-          </p>
-        </div>
-        <div className="absolute bottom-0 z-0">
-          <img src={VR} width={800} />
         </div>
       </div>
     </div>

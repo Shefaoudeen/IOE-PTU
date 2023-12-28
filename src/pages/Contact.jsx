@@ -9,7 +9,9 @@ const Contact = () => {
       className="flex flex-col justify-center h-screen relative"
       id="contact"
     >
-      <h1 className="text-center mt-16 text-3xl font-extrabold">CONTACT US</h1>
+      <h1 className="text-center mt-20 text-4xl font-extrabold font-title">
+        CONTACT US
+      </h1>
 
       <div className="h-[60%] flex flex-1 justify-around gap-10 w-[100%] py-2 mt-5 px-10">
         <div className="flex flex-col justify-center">
@@ -23,7 +25,7 @@ const Contact = () => {
             <h1 className="font-bold text-xl">Vice-President</h1>
             <h1 className="text-xl"> 9385380146</h1>
           </div>
-          <h1 className="text-xl font-semibold">
+          <h1 className="text-xl font-semibold mt-2">
             Departemnt of Electronics & Communication Engineering
           </h1>
           <h1 className="text-lg font-semibold">

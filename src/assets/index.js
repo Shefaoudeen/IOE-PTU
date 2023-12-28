@@ -17,6 +17,9 @@ import Group from "./group.jpg";
 import Blue from "./bluebg.jpg";
 import mic from "./mic.png";
 import Logo from "./logowp.png";
+import IOT1 from "./IOT1.jpg";
+import IOT2 from "./IOT2.jpeg";
+import IOT3 from "./IOT3.jpg";
 
 export {
   Wallpaper,
@@ -38,4 +41,7 @@ export {
   Blue,
   mic,
   Logo,
+  IOT1,
+  IOT2,
+  IOT3,
 };
