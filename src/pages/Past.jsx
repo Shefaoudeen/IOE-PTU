@@ -97,7 +97,7 @@ const Past = () => {
           </Fade>
         </div>
         <VerticalTimeline
-          className="w-1/2 z-0 max-sm:w-full max-sm:mx-4"
+          className="w-1/2 z-0 max-sm:w-[90%] max-sm:mx-4"
           layout="2-columns"
         >
           {pastSession.map((element) => {
@@ -111,24 +111,26 @@ const Past = () => {
                 className="drop-shadow-xl w-full rounded-3xl text-black max-sm:mr-4"
                 contentStyle={{
                   borderRadius: "20px",
-                  height: "200px",
+                  height: "275px",
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
                 }}
               >
-                <h1 className="vertical-timeline-element-title font-bold text-lg text-black">
+                <h1 className="vertical-timeline-element-title font-bold text-lg text-black max-sm:text-md">
                   {element.Title}
                 </h1>
-                <h1 className="vertical-timeline-element-subtitle text-md mt-2 text-black">
+                <h1 className="vertical-timeline-element-subtitle text-md mt-2 text-black max-sm:text-sm">
                   <a target="_blank" href={element.ProfessorLink}>
-                    <span className="font-bold text-xl hover:text-yellow-400 text-black">
+                    <span className="font-bold text-xl hover:text-yellow-400 text-black max-sm:text-md">
                       {element.Speaker}
                     </span>
                   </a>{" "}
                   {element.Position}
                 </h1>
-                <h1 className="text-md mt-2 text-black">{element.Action}</h1>
+                <h1 className="text-md mt-2 text-black max-sm:text-sm">
+                  {element.Action}
+                </h1>
               </VerticalTimelineElement>
             );
           })}
@@ -170,7 +172,10 @@ const Past = () => {
           })}
         </Fade>
       </div>
-      <VerticalTimeline className="w-1/2" layout="2-columns">
+      <VerticalTimeline
+        className="w-1/2 max-sm:w-[90%] max-sm:mx-4"
+        layout="2-columns"
+      >
         {workshop.map((element) => {
           return (
             <VerticalTimelineElement
@@ -181,7 +186,7 @@ const Past = () => {
               className="drop-shadow-xl w-full text-black"
               contentStyle={{
                 borderRadius: "20px",
-                height: "200px",
+                height: "275px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
