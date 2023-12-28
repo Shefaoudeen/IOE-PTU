@@ -67,15 +67,15 @@ const Home = () => {
         <div className="flex justify-center items-center z-10  h-full">
           <div className="flex px-4 gap-10 h-3/5 max-sm:flex-col max-sm:mx-4">
             <div className="border-none rounded-3xl bg-white drop-shadow-2xl">
-              <div className="overflow-hidden rounded-t-3xl">
+              <div className="overflow-hidden rounded-t-3xl ">
                 <img
                   src={IOT1}
-                  className="w-full h-[250px] object-fill rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
+                  className="w-full h-[250px] object-cover rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
                 />
               </div>
               <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
                 <div>
-                  <p>
+                  <p className="max-sm:text-sm">
                     An IOE Hub serves as a collaborative platform for
                     individuals interested in the Internet of Everything (IoE).
                     Functioning as a focal point for networking and knowledge
@@ -95,7 +95,7 @@ const Home = () => {
               </div>
               <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
                 <div>
-                  <p>
+                  <p className="max-sm:text-sm">
                     Within the IOE Hub, members can connect with like-minded
                     peers, engage in discussions about IoE technologies, and
                     enhance their understanding of the interconnected realms of
@@ -115,7 +115,7 @@ const Home = () => {
               </div>
               <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
                 <div>
-                  <p>
+                  <p className="max-sm:text-sm">
                     Acting as a dynamic entity within the academic environment,
                     an active IOE Hub contributes significantly to the growth
                     and development of its members. It offers programs and

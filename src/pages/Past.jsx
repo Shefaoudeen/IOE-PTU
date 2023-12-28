@@ -30,15 +30,15 @@ const Past = () => {
         <h1 className="text-2xl font-bold text-black ml-20 font1 ">
           INAUGURATION OF IOE HUB
         </h1>
-        <div className="slide-container relative py-10">
-          <Fade duration={2000} className="overflow-hidden ">
+        <div className="slide-container relative py-10 max-sm:py-0 max-sm:w-full">
+          <Fade duration={2000} className="overflow-hidden max-sm:w-full">
             {beginning.map((images, index) => {
               return (
                 <div
                   key={index}
                   className="flex justify-center rounded-2xl overflow-hidden"
                 >
-                  <div className="flex items-center justify-center h-[400px] w-1/2 rounded-2xl">
+                  <div className="flex items-center justify-center h-[400px] w-1/2 rounded-2xl max-sm:w-4/5">
                     <img
                       src={images.photo}
                       className="rounded-2xl object-fill shadow-2xl"
@@ -82,7 +82,7 @@ const Past = () => {
             {slides.map((images, index) => {
               return (
                 <div key={index} className="flex justify-center">
-                  <div className="flex items-center justify-center h-[400px] w-1/2">
+                  <div className="flex items-center justify-center h-[400px] w-1/2 max-sm:w-4/5">
                     <img
                       src={images.image}
                       className="rounded-2xl object-fill shadow-2xl"
@@ -111,7 +111,7 @@ const Past = () => {
                 className="drop-shadow-xl w-full rounded-3xl text-black max-sm:mr-4"
                 contentStyle={{
                   borderRadius: "20px",
-                  height: "275px",
+                  height: "250px",
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
@@ -127,9 +127,6 @@ const Past = () => {
                     </span>
                   </a>{" "}
                   {element.Position}
-                </h1>
-                <h1 className="text-md mt-2 text-black max-sm:text-sm">
-                  {element.Action}
                 </h1>
               </VerticalTimelineElement>
             );
@@ -161,7 +158,7 @@ const Past = () => {
           {workshopSlides.map((images, index) => {
             return (
               <div key={index} className="flex justify-center">
-                <div className="flex items-center justify-center h-[400px] w-1/2">
+                <div className="flex items-center justify-center h-[400px] w-1/2 max-sm:w-4/5">
                   <img
                     src={images.photo}
                     className="rounded-2xl object-fill shadow-2xl"

@@ -2,7 +2,7 @@ import { P1, P2, P3, P4, P5, P6, P7, P8 } from "../assets/pastEvent";
 
 const pastSession = [
   {
-    Title: "Interactive session on “Machine Learning and big data analytics",
+    Title: "“Machine Learning and big data analytics“",
     Speaker: "Dr. R. Baskaran",
     Position:
       "Associate Professor, Department of  CSE, College of Engineering Guindy, Anna University, Chennai ",
