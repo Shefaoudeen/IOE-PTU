@@ -33,7 +33,7 @@ const Bearers = () => {
 
   return (
     <div
-      className="flex flex-col w-full  items-center z-0 h-screen   pl-[75px]"
+      className="flex flex-col w-full  items-center z-0 h-screen   pl-[75px] bg-slate-100"
       id="bearers"
     >
       <h1 className="mt-20 font-extrabold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-purple-400">
@@ -43,7 +43,7 @@ const Bearers = () => {
       <div className="w-[100%] flex justify-center items-center h-full max-sm:hidden">
         <Slider
           {...settings}
-          className="w-[90%] bg-slate-50 rounded-2xl py-10 shadow-2xl shadow-black/75"
+          className="w-[90%] bg-slate-50 rounded-2xl py-10 shadow-xl shadow-black/75"
         >
           {final.map((element) => {
             return (

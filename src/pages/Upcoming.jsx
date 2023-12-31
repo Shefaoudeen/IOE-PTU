@@ -4,7 +4,7 @@ import upcoming from "../data/upcoming";
 const Upcoming = () => {
   return (
     <div
-      className="flex flex-col items-center -z-10 h-screen  ml-[75px]"
+      className="flex flex-col items-center -z-10 h-screen  ml-[75px] bg-slate-100"
       id="upcoming"
     >
       <div className="w-fit">

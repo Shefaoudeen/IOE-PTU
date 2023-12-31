@@ -4,7 +4,7 @@ import { DrGunasundari, Head } from "../assets";
 const Convenor = () => {
   return (
     <div
-      className="h-screen flex flex-col items-center  ml-[75px]"
+      className="h-screen flex flex-col items-center  ml-[75px] bg-slate-100"
       id="convenor"
     >
       <h1
@@ -20,7 +20,7 @@ const Convenor = () => {
             src={DrGunasundari}
             className="rounded-2xl shadow-2xl max-sm:w-[300px] shadow-black"
             data-aos="flip-left"
-            data-aos-delay="500"
+            data-aos-delay="300"
           />
         </div>
         <div className="items-start  w-1/2">
@@ -49,7 +49,7 @@ const Convenor = () => {
               <img
                 src={Head}
                 className="w-[300px] -ml-[50px] z-0"
-                data-aos-delay="500"
+                data-aos-delay="300"
                 data-aos="fade-left"
               />
             </div>

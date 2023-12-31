@@ -35,7 +35,7 @@ const styling1 = {
 const Home = () => {
   return (
     <div
-      className="flex justify-center items-center flex-col max-sm:bg-contain ml-[75px]"
+      className="flex justify-center items-center flex-col max-sm:bg-contain ml-[75px] bg-slate-100"
       id="home"
     >
       <div className="text-center relative w-full h-screen flex flex-col   text-black ">

@@ -6,7 +6,7 @@ import Footer from "./Footer";
 const Contact = () => {
   return (
     <div
-      className="flex flex-col justify-center h-screen relative  ml-[75px]"
+      className="flex flex-col justify-center h-screen relative  ml-[75px] bg-slate-100"
       id="contact"
     >
       <div className="w-full text-center flex justify-center items-center">
@@ -39,12 +39,14 @@ const Contact = () => {
           </h1>
           <h1 className="text-md font-medium">Puducherry - 605014, INDIA</h1>
           <div className="flex justify-center">
-            <button className="border my-3 text-xl p-1.5 bg-orange-300 rounded-lg w-1/2">
-              ioe.hub.ptu@gmail.com
-            </button>
+            <a href="mailto:ioe.hub.ptu@gmail.com">
+              <button className="border my-3 text-xl p-1.5 bg-orange-300 hover:font-bold hover:bg-orange-400/90 transition-all delay-100 rounded-lg w-full">
+                ioe.hub.ptu@gmail.com
+              </button>
+            </a>
           </div>
           <div className="flex justify-center">
-            <a>
+            <a href="https://www.instagram.com/ioe_hub_ptu/" target="_blank">
               <h1 className="text-2xl font-semibold">
                 <i className="fa fa-instagram"></i> Follow us
               </h1>
@@ -54,8 +56,11 @@ const Contact = () => {
         <div className="w-[40%] flex justify-center flex-col items-center">
           <h1 className="font-extrabold text-xl my-2.5">LOCATION</h1>
           <iframe
+            data-aos="fade-left"
+            data-aos-delay="300"
             height={400}
             width={400}
+            className="shadow-xl shadow-blue-400/70"
             src="https://maps.google.com/maps?q=pondicherry%20engineering%20college&t=&z=13&ie=UTF8&iwloc=&output=embed"
           ></iframe>
         </div>

@@ -25,7 +25,8 @@
     "react-slideshow-image": "^4.3.0",
     "react-spring": "^9.7.3",
     "react-vertical-timeline-component": "^3.6.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
