@@ -10,6 +10,8 @@ import {
   VR,
   IOT1,
   IOT2,
+  Photo1,
+  Logo,
   IOT3,
 } from "../assets";
 
@@ -25,7 +27,7 @@ const styling = {
 const styling1 = {
   backgroundImage: `url(${Wallpaper2})`,
   backgroundRepeat: "no-repeat",
-  height: "300vh",
+  height: "50vh",
   backgroundSize: "cover",
   backgroundAttachment: "fixed",
 };
@@ -33,40 +35,98 @@ const styling1 = {
 const Home = () => {
   return (
     <div
-      className="flex justify-center items-center flex-col max-sm:bg-contain"
+      className="flex justify-center items-center flex-col max-sm:bg-contain ml-[75px]"
       id="home"
     >
-      <div className="text-center w-full h-screen flex items-center justify-center relative text-black bg-slate-200">
-        <div className="w-3/5 px-9 ">
-          <h1 className=" text-5xl font-extrabold text-gray-400">
-            INTERNET OF EVERYTHINGS
-          </h1>
-          <h1 className="text-xl tracking-[5px] text-gray-500">
-            Puducherry Technology University
-          </h1>
-          <p className="text-xl mt-10 font-semibold text-justify leading-8">
-            The Internet of Everything (IoE) is a concept that extends the idea
-            of the Internet of Things (IoT) by emphasizing the
-            interconnectedness of not just devices, but also people, processes,
-            and data. IoE represents a comprehensive and dynamic connection of
-            objects, data, and processes to enhance and automate various aspects
-            of daily life and business operations.
-          </p>
+      <div className="text-center relative w-full h-screen flex flex-col   text-black ">
+        <div className=" top-0 left-0 right-0 w-full h-[50dvh]">
+          <div className="relative w-full h-full">
+            <div className="absolute w-full h-full bg-gradient-to-tr from-black via-gray-900 to-gray-300"></div>
+            <img
+              src={Wallpaper2}
+              className="w-full h-[50dvh] object-cover  shadow-inner-[100px] absolute opacity-70"
+            />
+            <div className="absolute bottom-10 z-[100] left-10">
+              <div
+                className="bg-gradient-to-r bg-clip-text from-sky-600 to-blue-200"
+                data-aos-delay="300"
+                data-aos="zoom-out"
+              >
+                <h1 className=" text-7xl font-extrabold bg-clip-text text-transparent z-[100] shadow-xl">
+                  INTERNET OF EVERYTHINGS
+                </h1>
+              </div>
+              <h1
+                className="text-xl tracking-[5px] font-bold text-white"
+                data-aos-delay="300"
+                data-aos="zoom-out"
+              >
+                Puducherry Technology University
+              </h1>
+            </div>
+            <div className="absolute right-10 z-50">
+              <img
+                src={Image1}
+                data-aos-easing="linear"
+                className="drop-shadow-2xl "
+                data-aos-delay="500"
+                data-aos="fade-left"
+              />
+            </div>
+          </div>
         </div>
-        <div className="w-2/5 flex justify-center drop-shadow-2xl">
-          <img
-            src={Image1}
-            width={500}
-            data-aos="fade-left"
-            data-aos-delay="100"
-            className="drop-shadow-xl"
-          />
+        <div className="flex justify-center items-center w-full h-[50dvh]">
+          <div className="w-2/5 flex justify-center items-center">
+            <img
+              src={Photo1}
+              className="w-[500px] rounded-3xl shadow-xl"
+              data-aos-delay="500"
+              data-aos-easing="linear"
+              data-aos="fade-right"
+            />
+          </div>
+          <div className="w-3/5 text-start">
+            <div className=" w-fit">
+              <h1
+                data-aos="fade-left"
+                data-aos-delay="300"
+                className="font-extrabold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-purple-400"
+              >
+                What is IOE?
+              </h1>
+            </div>
+            <p
+              className="text-lg  py-4 pr-10"
+              data-aos-delay="300"
+              data-aos="fade-left"
+            >
+              The Internet of Everything (IoE) is a concept that extends the
+              idea of the Internet of Things (IoT) by emphasizing the
+              interconnectedness of not just devices, but also people,
+              processes, and data. IoE represents a comprehensive and dynamic
+              connection of objects, data, and processes to enhance and automate
+              various aspects of daily life and business operations.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="text-center w-full h-screen max-sm:h-full text-black flex flex-col  bg-slate-200">
-        <div className="flex justify-center items-center z-10  h-full">
-          <div className="flex px-4 gap-10 h-3/5 max-sm:flex-col max-sm:mx-4">
-            <div className="border-none rounded-3xl bg-white drop-shadow-2xl">
+      <div className="text-center w-full h-screen  max-sm:h-full text-black flex flex-col  ">
+        <div className="flex flex-col justify-center items-center z-10  h-full">
+          <div className="w-fit pb-10">
+            <h1
+              data-aos-delay="300"
+              data-aos="zoom-out"
+              className="font-extrabold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-blue-200"
+            >
+              What is IOE Hub ?
+            </h1>
+          </div>
+          <div className="sm:grid sm:grid-cols-3  px-4 gap-10 h-3/5 max-sm:flex max-sm:flex-col max-sm:mx-4">
+            <div
+              className="border-none rounded-3xl bg-white  shadow-black/50 shadow-xl"
+              data-aos-delay="300"
+              data-aos="flip-left"
+            >
               <div className="overflow-hidden rounded-t-3xl ">
                 <img
                   src={IOT1}
@@ -86,7 +146,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="border-none rounded-3xl bg-white drop-shadow-2xl">
+            <div
+              data-aos-delay="300"
+              data-aos="flip-left"
+              className="border-none rounded-3xl bg-white drop-shadow-2xl shadow-black/50 shadow-xl"
+            >
               <div className="overflow-hidden rounded-t-3xl">
                 <img
                   src={IOT2}
@@ -106,7 +170,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="border-none rounded-3xl bg-white drop-shadow-2xl">
+            <div
+              data-aos-delay="300"
+              data-aos="flip-left"
+              className="border-none rounded-3xl bg-white drop-shadow-2xl shadow-black/50 shadow-xl"
+            >
               <div className="overflow-hidden rounded-t-3xl">
                 <img
                   src={IOT3}

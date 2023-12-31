@@ -22,10 +22,12 @@ const Past = () => {
   }
 
   return (
-    <div className=" z-0 w-[100%] bg-slate-200" id="past">
-      <h1 className="text-center font-extrabold text-black text-5xl pt-[100px] font-title">
-        PAST EVENTS
-      </h1>
+    <div className=" z-0 w-[100%]  pl-[75px]" id="past">
+      <div className="flex justify-center">
+        <h1 className="text-center w-fit font-extrabold text-black text-5xl pt-[50px] text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-purple-400">
+          PAST EVENTS
+        </h1>
+      </div>
       <div className="w-full h-[80vh]  flex flex-col justify-center mb-10">
         <h1 className="text-2xl font-bold text-black ml-20 font1 ">
           INAUGURATION OF IOE HUB
@@ -50,10 +52,13 @@ const Past = () => {
           </Fade>
         </div>
         <div className="w-full flex justify-center">
-          <p className="text-black text-justify mt-4 text-xl font-medium w-3/5">
+          <p className="text-black text-center mt-4 text-xl font-medium w-3/5">
             Course Inauguration: IoE Innovation Hub inaugurated formally by our
-            Guest of Honour Prof. S.Shanmugavel, Principal, NEC, Kovilpatti as a
-            part of STC program.
+            <span className="block">
+              Guest of Honour{" "}
+              <span className="text-2xl font-bold">Prof. S.Shanmugavel</span>
+            </span>
+            Principal, NEC, Kovilpatti as a part of STC program.
           </p>
         </div>
       </div>
@@ -71,10 +76,7 @@ const Past = () => {
             dynamics. Our commitment to fostering knowledge and insight has been
             evident in each carefully curated event, providing our members with
             a comprehensive understanding of the interconnected world of
-            devices, data, and people. As we continue to champion intellectual
-            exploration, we look forward to further discussions that unravel the
-            endless possibilities within the fascinating landscape of the
-            Internet of Everything.
+            devices, data, and people.
           </h1>
         </div>
         <div className="slide-container relative">
@@ -108,16 +110,17 @@ const Past = () => {
                 dateClassName="date"
                 iconStyle={iconStyling}
                 icon={<Mic />}
-                className="drop-shadow-xl w-full rounded-3xl text-black max-sm:mr-4"
+                className="drop-shadow-xl w-full rounded-3xl text-black max-sm:mr-4 "
                 contentStyle={{
                   borderRadius: "20px",
                   height: "250px",
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
+                  backgroundImage: "linear-gradient(to right,#c4b5fd,#bfdbfe)",
                 }}
               >
-                <h1 className="vertical-timeline-element-title font-bold text-lg text-black max-sm:text-md">
+                <h1 className="vertical-timeline-element-title font-bold text-xl text-black max-sm:text-md">
                   {element.Title}
                 </h1>
                 <h1 className="vertical-timeline-element-subtitle text-md mt-2 text-black max-sm:text-sm">

@@ -1,13 +1,12 @@
-import { Event } from "../assets";
+import { Event, Event1 } from "../assets";
 
 const upcoming = [
   {
-    Title:
-      "Hands on Workshop on “Design and Simulation of IoT Systems using the CISCO Packet Tracer",
+    Title: "Hands on Workshop",
     Date: "Nov 17, 18",
     Link: "https://docs.google.com/forms/d/e/1FAIpQLSdo9uvCn91mvoT-rapNoGPVLWD8PC5OO7DyhNC09aKu6tRb6g/closedform",
     key: 1,
-    photo: Event,
+    photo: Event1,
   },
   {
     Title: "Ideathon and Hack IoE",

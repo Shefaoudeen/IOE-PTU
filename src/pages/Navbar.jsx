@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo } from "../assets";
+import { Logo, Icon1, Icon2, Icon3, Icon4, Icon5, Icon6 } from "../assets";
 
 const highlight = {
   fontWeight: "bold",
@@ -8,50 +8,56 @@ const highlight = {
 
 const Navbar = () => {
   return (
-    <div className="flex justify-center w-full z-50 fixed">
-      <nav className="flex w-full justify-around bg-slate-300 px-1 py-1 rounded-lg text-lg h-[75px] items-center">
-        <a
-          className="p-1 hover:font-semibold hover:underline hover:rounded-lg "
-          href="#home"
-        >
-          <img src={Logo} className="w-[85px] pr-5 border-r-2 border-r-black" />
-        </a>
-        <a
-          className="p-1  hover:rounded-lg hover:font-semibold hover:underline"
-          href="#home"
-        >
-          Home
-        </a>
-        <a
-          className="p-1 hover:font-semibold hover:underline hover:rounded-lg"
-          href="#past"
-        >
-          Past Events
-        </a>
-        <a
-          className="p-1 hover:font-semibold hover:underline hover:rounded-lg"
-          href="#upcoming"
-        >
-          Upcoming Events
-        </a>
-        <a
-          className="p-1 hover:font-semibold hover:underline hover:rounded-lg"
-          href="#convenor"
-        >
-          Convenor
-        </a>
-        <a
-          className="p-1 hover:font-semibold hover:underline hover:rounded-lg"
-          href="#bearers"
-        >
-          Office Bearers
-        </a>
-        <a
-          className="p-1 hover:font-semibold hover:underline hover:rounded-lg"
-          href="#contact"
-        >
-          Contact Us
-        </a>
+    <div className="flex justify-center h-screen z-50 fixed top-0 bottom-0 left-0 bg-slate-50 w-[75px] text-center custom">
+      <nav className="flex flex-col w-full font-bold justify-evenly bg-transparent  rounded-lg text-lg h-scree items-center">
+        <div className="hover:bg-slate-300 w-full flex justify-center items-center h-full">
+          <a
+            className="p-1  hover:rounded-lg hover:font-semibold hover:underline "
+            href="#home"
+          >
+            <img src={Icon1} className="w-[30px]  " />
+          </a>
+        </div>
+        <div className="hover:bg-slate-300 w-full flex justify-center items-center h-full">
+          <a
+            className="p-1  hover:rounded-lg hover:font-semibold hover:underline "
+            href="#past"
+          >
+            <img src={Icon2} className="w-[30px]  " />
+          </a>
+        </div>
+        <div className="hover:bg-slate-300 w-full flex justify-center items-center h-full">
+          <a
+            className="p-1  hover:rounded-lg hover:font-semibold hover:underline "
+            href="#upcoming"
+          >
+            <img src={Icon3} className="w-[30px]  " />
+          </a>
+        </div>
+        <div className="hover:bg-slate-300 w-full flex justify-center items-center h-full">
+          <a
+            className="p-1  hover:rounded-lg hover:font-semibold hover:underline "
+            href="#convenor"
+          >
+            <img src={Icon4} className="w-[30px]  " />
+          </a>
+        </div>
+        <div className="hover:bg-slate-300 w-full flex justify-center items-center h-full">
+          <a
+            className="p-1  hover:rounded-lg hover:font-semibold hover:underline "
+            href="#bearers"
+          >
+            <img src={Icon5} className="w-[30px]  " />
+          </a>
+        </div>
+        <div className="hover:bg-slate-300 w-full flex justify-center items-center h-full">
+          <a
+            className="p-1  hover:rounded-lg hover:font-semibold hover:underline "
+            href="#contact"
+          >
+            <img src={Icon6} className="w-[30px]  " />
+          </a>
+        </div>
       </nav>
     </div>
   );

@@ -33,21 +33,21 @@ const Bearers = () => {
 
   return (
     <div
-      className="flex flex-col w-full  items-center z-0 h-screen bg-slate-200"
+      className="flex flex-col w-full  items-center z-0 h-screen   pl-[75px]"
       id="bearers"
     >
-      <h1 className="mt-20 font-extrabold text-4xl font-title">
+      <h1 className="mt-20 font-extrabold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-purple-400">
         OFFICE BEARERS
       </h1>
 
       <div className="w-[100%] flex justify-center items-center h-full max-sm:hidden">
         <Slider
           {...settings}
-          className="w-[90%] bg-slate-50 rounded-2xl py-10 drop-shadow-2xl"
+          className="w-[90%] bg-slate-50 rounded-2xl py-10 shadow-2xl shadow-black/75"
         >
           {final.map((element) => {
             return (
-              <div className="text-center rounded-xl   w-full border-none flex flex-col justify-center items-center ">
+              <div className="text-center rounded-xl   w-full border-none flex flex-col justify-center ">
                 <div className="flex justify-center">
                   <img src={element.photo} className="w-[300px] rounded-t-xl" />
                 </div>

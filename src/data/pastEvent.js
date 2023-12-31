@@ -13,8 +13,7 @@ const pastSession = [
     image: P1,
   },
   {
-    Title:
-      "Enlightening session on “IoE – Converging Technologies and Society Issues”",
+    Title: "“IoE – Converging Technologies and Society Issues”",
     Speaker: "Dr. P.Dananjayan",
     Position:
       "Professor, Department of  ECE, Pondicherry Engineering College, Puducherry",
@@ -26,7 +25,7 @@ const pastSession = [
   },
 
   {
-    Title: "Engaging session on “IoE Wearables and Computing”",
+    Title: "“IoE Wearables and Computing”",
     Speaker: "Dr. R.Gunasundari",
     Position:
       "Professor, Department of  ECE, Pondicherry Engineering College, Puducherry",
@@ -37,7 +36,7 @@ const pastSession = [
     image: P3,
   },
   {
-    Title: "Informative session on “Energy Harvesters for IoE”",
+    Title: "“Energy Harvesters for IoE”",
     Speaker: "Dr.K.Jayanthi",
     Position:
       "Professor, Department of  ECE, Pondicherry Engineering College, Puducherry",
@@ -48,7 +47,7 @@ const pastSession = [
     image: P4,
   },
   {
-    Title: "Thought provoking session on “Discovering self”",
+    Title: "“Discovering self”",
     Speaker: "Dr.E.Srinivasan",
     Position:
       "Professor, Department of  ECE, Pondicherry Engineering College, Puducherry",
@@ -59,8 +58,7 @@ const pastSession = [
     image: P5,
   },
   {
-    Title:
-      "Informative session on “Autonomous vehicle and collision avoidance”",
+    Title: "“Autonomous vehicle and collision avoidance”",
     Speaker: "Dr. C. S. Shankar Ram",
     Position:
       "Associate Professor, Dept. of Engineering Design, IIT Madras, Chennai ",
@@ -72,8 +70,7 @@ const pastSession = [
     image: P6,
   },
   {
-    Title:
-      "Interactive session on “Cloud Computing Issues for IoE Applications”",
+    Title: "“Cloud Computing Issues for IoE Applications”",
     Speaker: "Dr. N. Sreenath",
     Position:
       "Professor, Department of CSE, Pondicherry Engineering College, Puducherry",
@@ -85,7 +82,7 @@ const pastSession = [
     image: P7,
   },
   {
-    Title: "Insightful session on “Robotics and Automation in IoE”",
+    Title: "“Robotics and Automation in IoE”",
     Speaker: "Dr.P.V.Manivannan",
     Position:
       "Professor, Precision Engineering &  Instrumentation Lab, Department of Mechanical Engineering, IIT Madras, Chennai",
