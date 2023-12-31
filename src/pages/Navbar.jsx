@@ -8,7 +8,7 @@ const highlight = {
 
 const Navbar = () => {
   return (
-    <div className="flex justify-center h-screen z-50 fixed top-0 bottom-0 left-0 bg-slate-50 w-[75px] text-center custom">
+    <div className="flex justify-center h-screen z-50 fixed top-0 bottom-0 left-0 bg-slate-50 w-[75px] text-center custom max-sm:hidden">
       <nav className="flex flex-col w-full font-bold justify-evenly bg-transparent  rounded-lg text-lg h-scree items-center">
         <div className="hover:bg-slate-300 w-full flex justify-center items-center h-full">
           <a
