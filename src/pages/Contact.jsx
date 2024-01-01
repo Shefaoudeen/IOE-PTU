@@ -5,7 +5,7 @@ import { Marker } from "../assets";
 const Contact = () => {
   return (
     <div
-      className="flex flex-col justify-center xl:h-screen relative  xl:ml-[75px] w-max-[100vw] "
+      className="flex flex-col justify-center xl:h-screen relative  xl:ml-[75px]  "
       id="contact"
     >
       <div className="w-full text-center flex justify-center items-center">

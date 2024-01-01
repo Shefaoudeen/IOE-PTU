@@ -26,7 +26,7 @@ const Bearers = () => {
 
   return (
     <div
-      className="flex flex-col w-full  items-center z-0 h-screen   xl:pl-[75px] w-max-[100vw]"
+      className="flex flex-col w-full  items-center z-0 h-screen   xl:pl-[75px]"
       id="bearers"
     >
       <h1 className="mt-20 font-extrabold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-purple-400">

@@ -7,7 +7,7 @@ import beginning from "../data/beginning";
 
 const Past = () => {
   return (
-    <div className=" z-0 w-[100%]  xl:pl-[75px] w-max-[100vw]" id="past">
+    <div className=" z-0 w-[100%]  xl:pl-[75px]" id="past">
       <div className="flex justify-center">
         <h1 className="text-center w-fit font-extrabold text-black text-5xl pt-[50px] text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-purple-400">
           PAST EVENTS
@@ -81,7 +81,7 @@ const Past = () => {
                           src={element.image}
                           className="rounded-2xl object-fill shadow-2xl"
                         />
-                        <div className="absolute bottom-2 max-sm:bottom-[30px] left-2 bg-gray-500 px-2 py-1 w-1/2">
+                        <div className="absolute bottom-2 max-sm:bottom-[30px] left-2 bg-gray-500 px-2 py-1 w-1/2 max-sm:w-3/4">
                           <span className=" text-white text-[20px] max-sm:text-[15px] font-extrabold block">
                             {element.Title}
                           </span>

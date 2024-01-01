@@ -17,7 +17,7 @@ export default function App() {
   });
 
   return (
-    <div className="relative w-max-[100vw]">
+    <div className="relative ">
       <Updates />
       <LogoMobile />
       <Navbar />
