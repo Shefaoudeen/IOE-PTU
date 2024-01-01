@@ -53,7 +53,7 @@ const Past = () => {
           </Fade>
         </div>
         <div className="w-full flex justify-center">
-          <p className="text-black text-center mt-4 text-xl font-medium xl:w-3/5 max-sm:text-sm">
+          <p className="text-black text-center mt-4 text-xl font-medium xl:w-3/5 max-sm:text-sm max-sm:px-4">
             Course Inauguration: IoE Innovation Hub inaugurated formally by our
             <span className="block">
               Guest of Honour{" "}
@@ -71,7 +71,7 @@ const Past = () => {
             <h1 className="text-2xl font-bold text-black xl:ml-20 google-font1 ">
               INSIGHTFUL TALKS
             </h1>
-            <h1 className="text-black  text-lg font-medium w-4/5 max-sm:w-5/6 max-sm:text-sm text-justify">
+            <h1 className="text-black  text-lg font-medium w-4/5 max-sm:w-11/12 max-sm:text-sm text-justify">
               Since our inception, our club has diligently organized a series of
               enlightening talks centred around the transformative realm of the
               Internet of Everything (IoE). These engaging sessions have delved
@@ -123,7 +123,7 @@ const Past = () => {
           <h1 className="text-2xl font-bold text-black ml-10 google-font1 ">
             HANDS-ON WORKSHOPS
           </h1>
-          <h1 className="text-black text-justify mt-4 text-lg font-medium w-4/5 max-sm:text-sm max-sm:w-5/6">
+          <h1 className="text-black text-justify mt-4 text-lg font-medium w-4/5 max-sm:text-sm max-sm:w-11/12">
             Our club has proudly orchestrated a series of hands-on workshops,
             providing our members with immersive experiences in the dynamic
             realm of the Internet of Everything (IoE). These workshops have been

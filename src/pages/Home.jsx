@@ -35,10 +35,10 @@ const styling1 = {
 const Home = () => {
   return (
     <div
-      className="flex justify-center items-center flex-col max-sm:bg-contain xl:ml-[75px] "
+      className="flex justify-center items-center flex-col max-sm:bg-contain xl:ml-[75px]"
       id="home"
     >
-      <div className="text-center relative w-full h-screen flex flex-col  text-black max-sm:h-[150dvh]">
+      <div className="text-center relative w-full h-screen flex flex-col  text-black max-sm:h-[150dvh] max-sm:-mb-[200px]">
         <div className=" top-0 left-0 right-0 w-full h-[50dvh] max-sm:h-[25%] z-10 ">
           <div className="relative w-full h-full">
             <div className="absolute w-full h-full top-0 bottom-0 bg-gradient-to-tr max-sm:bg-white from-black via-gray-900 to-gray-300"></div>
@@ -46,7 +46,7 @@ const Home = () => {
               src={Wallpaper2}
               className="w-full h-[50dvh] object-cover  shadow-inner-[100px] absolute opacity-70 max-sm:h-[100%]"
             />
-            <div className="absolute bottom-10 max-sm:bottom-20 z-[100] left-10">
+            <div className="absolute bottom-10 max-sm:bottom-20 z-[100] xl:left-10">
               <div
                 className="bg-gradient-to-r bg-clip-text from-sky-600 to-blue-200"
                 data-aos-delay="300"
@@ -79,7 +79,7 @@ const Home = () => {
           <div className="w-2/5 flex justify-center items-center max-sm:w-full max-sm:h-[50%]">
             <img
               src={Photo1}
-              className="w-[500px] rounded-3xl shadow-xl max-sm:w-[75%]"
+              className="w-[500px] rounded-3xl shadow-xl max-sm:w-[80%]"
               data-aos-delay="500"
               data-aos-easing="linear"
               data-aos="fade-right"
@@ -116,15 +116,16 @@ const Home = () => {
             <h1
               data-aos-delay="300"
               data-aos="zoom-out"
-              className="font-extrabold text-5xl max-sm:2xl  text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-blue-200"
+              className="font-extrabold text-5xl max-sm:text-3xl  text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-blue-200"
             >
               What is IOE Hub ?
             </h1>
           </div>
-          <div className="sm:grid sm:grid-cols-3  px-4 gap-10 h-3/5 max-sm:flex max-sm:flex-col max-sm:mx-4">
+          <div className="sm:grid sm:grid-cols-3 max-sm:w-[80%] px-4 gap-10 h-3/5 max-sm:flex max-sm:flex-col max-sm:mx-4">
             <div
               className="border-none rounded-3xl bg-white  shadow-black/50 shadow-xl"
-              data-aos-delay="300"
+              data-aos-delay="150"
+              data-aos-easing="linear"
               data-aos="flip-left"
             >
               <div className="overflow-hidden rounded-t-3xl ">
@@ -147,8 +148,9 @@ const Home = () => {
               </div>
             </div>
             <div
-              data-aos-delay="300"
+              data-aos-delay="150"
               data-aos="flip-left"
+              data-aos-easing="linear"
               className="border-none rounded-3xl bg-white drop-shadow-2xl shadow-black/50 shadow-xl"
             >
               <div className="overflow-hidden rounded-t-3xl">
@@ -171,8 +173,9 @@ const Home = () => {
               </div>
             </div>
             <div
-              data-aos-delay="300"
+              data-aos-delay="150"
               data-aos="flip-left"
+              data-aos-easing="linear"
               className="border-none rounded-3xl bg-white drop-shadow-2xl shadow-black/50 shadow-xl"
             >
               <div className="overflow-hidden rounded-t-3xl">
