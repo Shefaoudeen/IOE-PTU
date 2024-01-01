@@ -69,7 +69,7 @@ const Convenor = () => {
               href="https://www.ptuniv.edu.in/ece/faculty?id=61"
               target="_blank"
             >
-              <button className="border border-none py-2 px-2 text-lg font-bold bg-orange-400 rounded-lg ">
+              <button className="border border-none py-2 px-2 text-lg font-bold z-20 bg-orange-400 rounded-lg ">
                 Learn More
               </button>
             </a>

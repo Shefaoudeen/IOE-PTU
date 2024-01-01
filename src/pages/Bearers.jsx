@@ -79,7 +79,10 @@ const Bearers = () => {
             return (
               <div className="text-center rounded-xl   w-full border-none flex flex-col justify-center items-center ">
                 <div className="flex justify-center">
-                  <img src={element.photo} className="w-[300px] rounded-t-xl" />
+                  <img
+                    src={element.photo}
+                    className="w-[300px] h-[300px] object-cover rounded-t-xl"
+                  />
                 </div>
                 <div className="rounded-b-xl w-full flex justify-center">
                   <div className="w-[300px]  bg-gray-400 rounded-b-xl hover:bg-gray-500">
