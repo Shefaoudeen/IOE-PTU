@@ -21,8 +21,16 @@ import Icon4 from "./Icon/Convenor.png";
 import Icon5 from "./Icon/Bearers.png";
 import Icon6 from "./Icon/Contact.png";
 import Event1 from "./event1.png";
+import Seshan from "./seshan.png";
+import Praveene from "./Praveene.png";
+import Arjun from "./arjun.png";
+import Srinetha from "./Srinetha.png";
 
 export {
+  Seshan,
+  Praveene,
+  Arjun,
+  Srinetha,
   Event1,
   Event,
   Shefa,

@@ -1,11 +1,11 @@
-import { Shefa } from "../assets";
+import { Shefa, Seshan, Srinetha, Arjun, Praveene } from "../assets";
 
 const final = [
   {
     name: "RA SRINETHE",
     role: "SECRETATRY",
     year: "FINAL YEAR",
-    photo: Shefa,
+    photo: Srinetha,
     email: "mailto:srinethe.ra@pec.edu",
     phoneNo: "tel:6369127917",
     linkedin:
@@ -15,7 +15,7 @@ const final = [
     name: "PRAVEEN R",
     role: "PRESIDENT",
     year: "FINAL YEAR",
-    photo: Shefa,
+    photo: Praveene,
     email: "mailto:praveene.r@pec.edu",
     phoneNo: "tel:8438778446",
     linkedin:
@@ -25,7 +25,7 @@ const final = [
     name: "G ARJUN KRISHNA",
     role: "TRESURER",
     year: "FINAL YEAR",
-    photo: Shefa,
+    photo: Arjun,
     email: "mailto:arjunkrishna@pec.edu",
     phoneNo: "tel:9443348615",
     linkedin:
