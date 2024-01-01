@@ -64,7 +64,7 @@ const Convenor = () => {
               />
             </div>
           </div>
-          <div className="flex justify-center mt-6">
+          <div className="flex justify-center mt-6 z-20">
             <a
               href="https://www.ptuniv.edu.in/ece/faculty?id=61"
               target="_blank"
