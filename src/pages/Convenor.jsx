@@ -45,7 +45,7 @@ const Convenor = () => {
                   <li className="ml-10">Adhoc & Sensor Networks</li>
                   <li className="ml-10">Image Processing</li>
                 </ul>
-                <div className="absolute right-0 -top-[60px] -z-10">
+                <div className="absolute right-0 -top-[60px] -z-10 sm:hidden">
                   <img
                     src={Head}
                     className="w-[200px]  z-0"

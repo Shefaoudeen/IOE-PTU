@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="flex flex-col w-full font-bold justify-evenly bg-transparent  rounded-lg text-lg h-scree items-center">
         <div className="hover:bg-slate-300 w-full flex justify-center items-center h-full">
           <a
-            className="p-1  hover:rounded-lg hover:font-semibold hover:underline "
+            className="p-1  hover:rounded-lg hover:font-semibold hover:underline"
             href="#home"
           >
             <img src={Icon1} className="w-[30px]  " />
