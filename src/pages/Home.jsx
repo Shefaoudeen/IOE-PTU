@@ -134,7 +134,7 @@ const Home = () => {
                   className="w-full h-[250px] max-sm:h-[200px] object-cover rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
                 />
               </div>
-              <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
+              <div className="flex justify-center items-center text-justify h-2/5 max-sm:h-[30%] px-6 my-5 text-md font-medium">
                 <div>
                   <p className="max-sm:text-sm">
                     An IOE Hub serves as a collaborative platform for
@@ -159,7 +159,7 @@ const Home = () => {
                   className="w-full h-[250px] max-sm:h-[200px] object-cover rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
                 />
               </div>
-              <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
+              <div className="flex justify-center items-center text-justify h-2/5 max-sm:h-[30%] px-6 my-5 text-md font-medium">
                 <div>
                   <p className="max-sm:text-sm">
                     Within the IOE Hub, members can connect with like-minded
@@ -184,7 +184,7 @@ const Home = () => {
                   className="w-full h-[250px] max-sm:h-[200px] object-fill rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
                 />
               </div>
-              <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
+              <div className="flex justify-center items-center text-justify max-sm:h-[30%] h-2/5 px-6 my-5 text-md font-medium">
                 <div>
                   <p className="max-sm:text-sm">
                     Acting as a dynamic entity within the academic environment,

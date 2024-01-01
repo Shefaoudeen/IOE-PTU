@@ -66,8 +66,8 @@ const Past = () => {
         </div>
       </div>
       <div className="pt-4 h-screen flex flex-col justify-center">
-        <div className="flex flex-row-reverse max-sm:flex-col">
-          <div className="flex flex-col justify-center items-center relative xl:w-1/2">
+        <div className="flex flex-row-reverse max-sm:flex-col justify-center">
+          <div className="flex flex-col justify-center items-center relative xl:w-1/2 max-sm:w-full text-center">
             <h1 className="text-2xl font-bold text-black xl:ml-20 google-font1 ">
               INSIGHTFUL TALKS
             </h1>
