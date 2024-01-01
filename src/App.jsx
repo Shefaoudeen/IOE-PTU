@@ -1,3 +1,4 @@
+import Updates from "./pages/Updates";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
 import Past from "./pages/Past";
@@ -17,6 +18,7 @@ export default function App() {
 
   return (
     <div className="relative">
+      <Updates />
       <LogoMobile />
       <Navbar />
       <Home />

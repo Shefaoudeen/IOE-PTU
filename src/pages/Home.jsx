@@ -124,8 +124,6 @@ const Home = () => {
           <div className="sm:grid sm:grid-cols-3 max-sm:w-[80%] px-4 gap-10 h-3/5 max-sm:flex max-sm:flex-col max-sm:mx-4">
             <div
               className="border-none rounded-3xl bg-white  xl:shadow-black/50 shadow-xl"
-              data-aos-delay="150"
-              data-aos-easing="linear"
               data-aos="flip-left"
             >
               <div className="overflow-hidden rounded-t-3xl ">
@@ -148,9 +146,7 @@ const Home = () => {
               </div>
             </div>
             <div
-              data-aos-delay="150"
               data-aos="flip-left"
-              data-aos-easing="linear"
               className="border-none rounded-3xl bg-white drop-shadow-2xl xl:shadow-black/50 shadow-xl"
             >
               <div className="overflow-hidden rounded-t-3xl">
@@ -173,9 +169,7 @@ const Home = () => {
               </div>
             </div>
             <div
-              data-aos-delay="150"
               data-aos="flip-left"
-              data-aos-easing="linear"
               className="border-none rounded-3xl bg-white drop-shadow-2xl xl:shadow-black/50 shadow-xl"
             >
               <div className="overflow-hidden rounded-t-3xl">
