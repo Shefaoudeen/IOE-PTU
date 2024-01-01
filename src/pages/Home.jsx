@@ -5,7 +5,7 @@ import { Image1, Wallpaper2, IOT1, IOT2, Photo1, IOT3 } from "../assets";
 const Home = () => {
   return (
     <div
-      className="flex justify-center items-center flex-col max-sm:bg-contain xl:ml-[75px]"
+      className="flex justify-center items-center flex-col max-sm:bg-contain xl:ml-[75px] w-max-[100vw]"
       id="home"
     >
       <div className="text-center relative w-full h-screen flex flex-col  text-black max-sm:h-[150dvh] max-sm:-mb-[200px]">

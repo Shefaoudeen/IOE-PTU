@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const Updates = () => {
   return (
-    <div className="fixed z-[200] bg-sky-50 ">
+    <div className="fixed z-[200] bg-sky-50 w-max-[100vw]">
       <div className="relative">
         <span className=" absolute inline w-fit z-[300] bg-sky-500 p-1 text-white font-bold">
           Recent Updates:{" "}

@@ -4,7 +4,7 @@ import { DrGunasundari, Head } from "../assets";
 const Convenor = () => {
   return (
     <div
-      className="h-screen flex flex-col items-center  xl:ml-[75px] "
+      className="h-screen flex flex-col items-center  xl:ml-[75px] w-max-[100vw]"
       id="convenor"
     >
       <h1

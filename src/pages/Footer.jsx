@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="bg-gradient-to-r from-black via-slate-700 to-black mt-4">
+    <section className="bg-gradient-to-r from-black via-slate-700 to-black mt-4 w-max-[100vw]">
       <div
         className="flex justify-center
        h-[20vh] items-center"

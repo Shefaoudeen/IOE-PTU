@@ -3,7 +3,7 @@ import { Logo } from "../assets";
 
 const LogoMobile = () => {
   return (
-    <div className="fixed flex justify-center items-center w-[100%] h-screen -z-10 sm:hidden">
+    <div className="fixed flex justify-center items-center w-[100%] h-screen -z-10 sm:hidden w-max-[100vw]">
       <img src={Logo} className="opacity-10 fixed" width={300} />
     </div>
   );
