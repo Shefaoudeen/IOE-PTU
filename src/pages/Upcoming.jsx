@@ -4,7 +4,7 @@ import upcoming from "../data/upcoming";
 const Upcoming = () => {
   return (
     <div
-      className="flex flex-col items-center -z-10 h-screen  ml-[75px] bg-slate-100"
+      className="flex flex-col items-center -z-10 xl:h-screen  xl:ml-[75px] "
       id="upcoming"
     >
       <div className="w-fit">
@@ -16,7 +16,7 @@ const Upcoming = () => {
           UPCOMING EVENTS
         </h1>
       </div>
-      <div className="flex px-4 justify-center gap-[100px]">
+      <div className="flex px-4 justify-center xl:gap-[100px] max-sm:flex-col max-sm:hidden">
         {upcoming.map((element) => {
           return (
             <div className="border-2 w-[500px] flex flex-col items-center m-2 p-1 rounded-3xl shadow-black shadow-2xl bg-slate-50">
@@ -32,6 +32,25 @@ const Upcoming = () => {
                 className="w-[250px] shadow-2xl shadow-black/40 h-[400px] object-fill rounded-xl"
               />
               <h1 className="text-lg mt-2 font-medium">Date: {element.Date}</h1>
+              <a href={element.Link} target="_blank">
+                <button className="px-4 py-2 bg-blue-400 rounded-lg mt-4 text-white font-bold mb-2">
+                  Register
+                </button>
+              </a>
+            </div>
+          );
+        })}
+      </div>
+      <div className="flex px-4 justify-center xl:gap-[100px] max-sm:flex-col sm:hidden">
+        {upcoming.map((element) => {
+          return (
+            <div className=" w-[500px] max-sm:w-full flex flex-col items-center p-1 ">
+              <img
+                data-aos-delay="300"
+                data-aos="flip-left"
+                src={element.photo}
+                className="w-[250px] max-sm:w-[300px] shadow-2xl shadow-black/40 h-[400px] max-sm:h-[500px] object-fill rounded-xl"
+              />
               <a href={element.Link} target="_blank">
                 <button className="px-4 py-2 bg-blue-400 rounded-lg mt-4 text-white font-bold mb-2">
                   Register
