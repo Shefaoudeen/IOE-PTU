@@ -73,7 +73,15 @@ const Contact = () => {
             data-aos-delay="300"
             height={400}
             width={400}
-            className="shadow-xl shadow-blue-400/70 max-sm:w-[90%]"
+            className="shadow-xl shadow-blue-400/70 max-sm:w-[90%] max-sm:hidden"
+            src="https://maps.google.com/maps?q=pondicherry%20engineering%20college&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          ></iframe>
+          <iframe
+            data-aos="fade-up"
+            data-aos-delay="300"
+            height={400}
+            width={400}
+            className="shadow-xl shadow-blue-400/70 max-sm:w-[90%] sm:hidden"
             src="https://maps.google.com/maps?q=pondicherry%20engineering%20college&t=&z=13&ie=UTF8&iwloc=&output=embed"
           ></iframe>
         </div>

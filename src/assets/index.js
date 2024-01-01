@@ -25,9 +25,13 @@ import Seshan from "./seshan.png";
 import Praveene from "./Praveene.png";
 import Arjun from "./arjun.png";
 import Srinetha from "./Srinetha.png";
+import Nimal from "./nimal.png";
+import Nivesh from "./nivesh.png";
 
 export {
   Seshan,
+  Nimal,
+  Nivesh,
   Praveene,
   Arjun,
   Srinetha,

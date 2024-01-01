@@ -66,9 +66,21 @@ const Home = () => {
               </h1>
             </div>
             <p
-              className="text-lg  xl:py-4 max-sm:py-2 xl:pr-10  max-sm:text-sm max-sm:text-justify"
+              className="text-lg  xl:py-4 max-sm:py-2 xl:pr-10  max-sm:text-sm max-sm:text-justify max-sm:hidden"
               data-aos-delay="300"
               data-aos="fade-left"
+            >
+              The Internet of Everything (IoE) is a concept that extends the
+              idea of the Internet of Things (IoT) by emphasizing the
+              interconnectedness of not just devices, but also people,
+              processes, and data. IoE represents a comprehensive and dynamic
+              connection of objects, data, and processes to enhance and automate
+              various aspects of daily life and business operations.
+            </p>
+            <p
+              className="text-lg  xl:py-4 max-sm:py-2 xl:pr-10  max-sm:text-sm max-sm:text-justify sm:hidden"
+              data-aos-delay="300"
+              data-aos="zoom-out"
             >
               The Internet of Everything (IoE) is a concept that extends the
               idea of the Internet of Things (IoT) by emphasizing the

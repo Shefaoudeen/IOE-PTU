@@ -1,4 +1,4 @@
-import { Shefa, Seshan, Srinetha, Arjun, Praveene } from "../assets";
+import { Seshan, Srinetha, Arjun, Praveene, Nimal, Nivesh } from "../assets";
 
 const final = [
   {
@@ -35,7 +35,7 @@ const final = [
     name: "SESHAN",
     role: "ASSOCIATE SECRETATRY",
     year: "PRE FINAL YEAR",
-    photo: Shefa,
+    photo: Seshan,
     email: "mailto:seshan.saravanan170@ptuniv.edu.in",
     phoneNo: "tel:6385635310",
     linkedin:
@@ -45,7 +45,7 @@ const final = [
     name: "NIMAL VARDHAN",
     role: "VICE-PRESIDENT",
     year: "PRE FINAL YEAR",
-    photo: Shefa,
+    photo: Nimal,
     email: "mailto:nimalvardhan@ptuniv.edu.in",
     phoneNo: "tel:9385380146",
     linkedin:
@@ -55,7 +55,7 @@ const final = [
     name: "NIVESH S",
     role: "ASSOCIATE TRESURER",
     year: "PRE FINAL YEAR",
-    photo: Shefa,
+    photo: Nivesh,
     email: "mailto:nivesh.s@ptuniv.edu.in",
     phoneNo: "tel:9677747762",
     linkedin:

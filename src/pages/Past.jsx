@@ -124,8 +124,38 @@ const Past = () => {
           </h1>
         </div>
         <div
-          className="slide-container relative xl:w-1/2 max-sm:w-full"
+          className="slide-container relative xl:w-1/2 max-sm:w-full max-sm:hidden"
           data-aos="fade-left"
+        >
+          <Fade duration={2000}>
+            {workshop.map((element, index) => {
+              return (
+                <div key={index} className="flex justify-center px-2">
+                  <div className="flex items-center justify-center h-[400px] max-sm:w-full relative">
+                    <img
+                      src={element.image}
+                      className="rounded-2xl object-fill shadow-2xl"
+                    />
+                    <div className="absolute bottom-2 left-2 bg-gray-500 px-2 py-1 w-3/4 max-sm:bottom-10">
+                      <span className=" text-white text-[20px] font-bold block max-sm:text-[15px]">
+                        {element.Title}
+                      </span>
+                      <span className=" text-white text-[20px] font-bold max-sm:text-[15px]">
+                        {element.Speaker}
+                      </span>
+                      <span className=" text-white text-[15px] font-semibold block max-sm:text-[10px]">
+                        {element.Position}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </Fade>
+        </div>
+        <div
+          className="slide-container relative xl:w-1/2 max-sm:w-full sm:hidden"
+          data-aos="fade-down"
         >
           <Fade duration={2000}>
             {workshop.map((element, index) => {

@@ -40,9 +40,12 @@ const Bearers = () => {
         >
           {final.map((element) => {
             return (
-              <div className="text-center rounded-xl   w-full border-none flex flex-col justify-center ">
+              <div className="text-center rounded-xl  w-full border-none flex flex-col justify-center ">
                 <div className="flex justify-center">
-                  <img src={element.photo} className="w-[300px] rounded-t-xl" />
+                  <img
+                    src={element.photo}
+                    className="w-[300px] rounded-t-xl h-[275px] object-cover"
+                  />
                 </div>
                 <div className="rounded-b-xl w-full flex justify-center">
                   <div className="w-[300px]  bg-gray-400 rounded-b-xl hover:bg-gray-500">

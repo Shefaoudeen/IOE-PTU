@@ -50,7 +50,7 @@ const Convenor = () => {
                     src={Head}
                     className="w-[200px]  z-0"
                     data-aos-delay="300"
-                    data-aos="fade-left"
+                    data-aos="zoom-in"
                   />
                 </div>
               </div>
