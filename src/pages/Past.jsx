@@ -1,27 +1,11 @@
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
 import { Fade } from "react-slideshow-image";
 import "react-vertical-timeline-component/style.min.css";
 import "react-slideshow-image/dist/styles.css";
 import pastSession from "../data/pastEvent";
 import workshop from "../data/workshop";
-import { slides, workshopSlides } from "../assets/pastEvent";
 import beginning from "../data/beginning";
-import { Blue, mic } from "../assets";
-import styled, { keyframes } from "styled-components";
-
-const iconStyling = {
-  background: "#808080",
-  backgroundImage: `url(${mic})`,
-};
 
 const Past = () => {
-  function Mic() {
-    return <img src={mic} width={75} />;
-  }
-
   return (
     <div className=" z-0 w-[100%]  xl:pl-[75px]" id="past">
       <div className="flex justify-center">

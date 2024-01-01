@@ -1,7 +1,6 @@
 import React from "react";
-import contact_detail from "../data/contact";
-import { Shefa } from "../assets";
 import Footer from "./Footer";
+import { Marker } from "../assets";
 
 const Contact = () => {
   return (
@@ -63,7 +62,12 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-[40%] max-sm:w-full flex justify-center flex-col items-center">
-          <h1 className="font-extrabold text-xl xl:my-2.5">LOCATION</h1>
+          <h1 className="font-extrabold text-xl xl:my-2.5 flex items-center">
+            <span className="inline ">
+              <img src={Marker} width={30} className="inline" />
+            </span>
+            LOCATION
+          </h1>
           <iframe
             data-aos="fade-left"
             data-aos-delay="300"

@@ -1,36 +1,6 @@
 import React from "react";
-import { Parallax } from "react-scroll-parallax";
-import { Shefa } from "../assets";
-import {
-  Globe,
-  Globe2,
-  Image1,
-  Wallpaper2,
-  Image3,
-  VR,
-  IOT1,
-  IOT2,
-  Photo1,
-  Logo,
-  IOT3,
-} from "../assets";
 
-const styling = {
-  backgroundImage: `url(${Wallpaper2})`,
-  height: "100vh",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundAttachment: "fixed",
-  width: "100vw",
-};
-
-const styling1 = {
-  backgroundImage: `url(${Wallpaper2})`,
-  backgroundRepeat: "no-repeat",
-  height: "50vh",
-  backgroundSize: "cover",
-  backgroundAttachment: "fixed",
-};
+import { Image1, Wallpaper2, IOT1, IOT2, Photo1, IOT3 } from "../assets";
 
 const Home = () => {
   return (
