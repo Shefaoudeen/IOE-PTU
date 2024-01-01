@@ -20,7 +20,7 @@ const Home = () => {
               <div
                 className="bg-gradient-to-r bg-clip-text from-sky-600 to-blue-200"
                 data-aos-delay="300"
-                data-aos="zoom-out"
+                data-aos="zoom-in"
               >
                 <h1 className=" text-7xl font-extrabold bg-clip-text text-transparent z-[100] shadow-xl max-sm:text-5xl">
                   INTERNET OF EVERYTHINGS
@@ -29,7 +29,7 @@ const Home = () => {
               <h1
                 className="text-xl tracking-[5px] font-bold text-white max-sm:text-sm"
                 data-aos-delay="300"
-                data-aos="zoom-out"
+                data-aos="zoom-in"
               >
                 Puducherry Technology University
               </h1>
