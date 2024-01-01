@@ -131,7 +131,7 @@ const Home = () => {
               <div className="overflow-hidden rounded-t-3xl ">
                 <img
                   src={IOT1}
-                  className="w-full h-[250px] object-cover rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
+                  className="w-full h-[250px] max-sm:h-[200px] object-cover rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
                 />
               </div>
               <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
@@ -156,7 +156,7 @@ const Home = () => {
               <div className="overflow-hidden rounded-t-3xl">
                 <img
                   src={IOT2}
-                  className="w-full h-[250px] object-cover rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
+                  className="w-full h-[250px] max-sm:h-[200px] object-cover rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
                 />
               </div>
               <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
@@ -181,7 +181,7 @@ const Home = () => {
               <div className="overflow-hidden rounded-t-3xl">
                 <img
                   src={IOT3}
-                  className="w-full h-[250px] object-fill rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
+                  className="w-full h-[250px] max-sm:h-[200px] object-fill rounded-t-3xl hover:scale-[1.2] ease-linear transition-all"
                 />
               </div>
               <div className="flex justify-center items-center text-justify h-2/5 px-6 my-5 text-md font-medium">
