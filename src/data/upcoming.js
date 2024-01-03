@@ -1,19 +1,19 @@
-import { Event, Event1 } from "../assets";
+import { Event2, Event1 } from "../assets";
 
 const upcoming = [
   {
-    Title: "Hands on Workshop",
-    Date: "Nov 17, 18",
-    Link: "https://docs.google.com/forms/d/e/1FAIpQLSdo9uvCn91mvoT-rapNoGPVLWD8PC5OO7DyhNC09aKu6tRb6g/closedform",
+    Title: "HACK IoE",
+    Date: "09TH JAN 2024",
+    Link: "https://docs.google.com/forms/d/e/1FAIpQLSemI1clIjfVbk6WZaE40cwIo4Vrr77kFUl0rM31Vfq_-eVQyg/viewform",
     key: 1,
     photo: Event1,
   },
   {
-    Title: "Ideathon and Hack IoE",
-    Date: "Nov 20, 21",
+    Title: "IDEATHON",
+    Date: "08th JAN 2024",
     Link: "https://docs.google.com/forms/d/e/1FAIpQLSdo9uvCn91mvoT-rapNoGPVLWD8PC5OO7DyhNC09aKu6tRb6g/closedform",
     key: 2,
-    photo: Event,
+    photo: Event2,
   },
 ];
 

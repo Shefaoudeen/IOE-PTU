@@ -11,9 +11,9 @@ const Updates = () => {
       </div>
       <div className="py-1">
         <Marquee speed={50}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quo
-          recusandae explicabo et vel, alias provident omnis expedita id,
-          aperiam in nihil maiores ipsum culpa, eum eos sequi ipsa porro!
+          IoE hub has something phenomenal in store for us on January 9th, 2024
+          – not one, but two incredible competitions that promise to be an
+          absolute game-changer!
         </Marquee>
       </div>
     </div>

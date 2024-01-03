@@ -1,4 +1,4 @@
-import Event from "./event2.jpg";
+import Event2 from "./event02.jpeg";
 import Shefa from "./shefa.jpg";
 import Marker from "./marker.svg";
 import Envelop from "./envelop.svg";
@@ -20,7 +20,7 @@ import Icon3 from "./Icon/Upcoming.png";
 import Icon4 from "./Icon/Convenor.png";
 import Icon5 from "./Icon/Bearers.png";
 import Icon6 from "./Icon/Contact.png";
-import Event1 from "./event1.png";
+import Event1 from "./event01.jpeg";
 import Seshan from "./seshan.png";
 import Praveene from "./Praveene.png";
 import Arjun from "./arjun.png";
@@ -36,7 +36,7 @@ export {
   Arjun,
   Srinetha,
   Event1,
-  Event,
+  Event2,
   Shefa,
   Marker,
   Envelop,
