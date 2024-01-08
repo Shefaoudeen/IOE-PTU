@@ -102,8 +102,8 @@ const Past = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center  max-sm:flex-col">
-        <div className="flex flex-col items-center justify-center my-3 w-4/5 max-sm:w-full">
+      <div className="flex justify-center items-center  max-sm:flex-col w-max-[100vw]">
+        <div className="flex flex-col items-center justify-center my-3 w-4/5 max-sm:w-full w-max-[100vw]">
           <h1 className="text-2xl font-bold text-black ml-10 google-font1 ">
             HANDS-ON WORKSHOPS
           </h1>
@@ -125,7 +125,7 @@ const Past = () => {
         </div>
         <div
           className="slide-container relative xl:w-1/2 max-sm:w-full max-sm:hidden"
-          data-aos="fade-left"
+          data-aos="fade-right"
         >
           <Fade duration={2000}>
             {workshop.map((element, index) => {
