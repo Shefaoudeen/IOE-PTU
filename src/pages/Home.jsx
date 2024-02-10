@@ -24,7 +24,7 @@ const Home = () => {
                 data-aos="zoom-in"
               >
                 <h1 className=" text-7xl font-extrabold bg-clip-text text-transparent z-[100] shadow-xl max-sm:text-5xl">
-                  INTERNET OF EVERYTHINGS
+                  INTERNET OF EVERYTHING
                 </h1>
               </div>
               <h1
